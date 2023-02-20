@@ -68,7 +68,7 @@ $foods = [$dog_food,$cat_food];
                      <div class="card-body">
                         <h3><?=$game->name?></h3>
                         <p><strong>Categoria:</strong> <?=$game->categories->name?></p>
-                        <p><strong>Prezzo:</strong> <?=$game->price?></p>
+                        <p><strong>Prezzo:</strong> <?=$game->price?>€</p>
                         <p><strong>Materiale:</strong> <?=$game->material?></p>
                         <p><strong>Tipologia:</strong> <?=$game->type?></p>
                      <p class="card-text"><strong>Descrizione:</strong> <?=$game->description?></p>
@@ -90,7 +90,7 @@ $foods = [$dog_food,$cat_food];
                      <div class="card-body">
                         <h3><?=$food->name?></h3>
                         <p><strong>Categoria:</strong> <?=$food->categories->name?></p>
-                        <p><strong>Prezzo:</strong> <?=$food->price?></p>
+                        <p><strong>Prezzo:</strong> <?=$food->price?>€</p>
                         <p><strong>Scadenza:</strong> <?=$food->expiration?></p>
                         <p><strong>Ingredienti:</strong> <?=$food->ingredients?></p>
                      <p class="card-text"><strong>Descrizione:</strong> <?=$food->description?></p>
